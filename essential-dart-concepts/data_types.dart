@@ -8,34 +8,34 @@
 // 7. Symbols
 // 8. Null
 
-//INTEGER - represents integer values
-int someNumber = 10;
+// //INTEGER - represents integer values
+// int someNumber = 10;
 
-//DOUBLE - represents floating point values
-double someDouble = 10.10;
+// //DOUBLE - represents floating point values
+// double someDouble = 10.10;
 
-//NUMBERS - represents both integer and double values
-num someNum = 10; 
+// //NUMBERS - represents both integer and double values
+// num someNum = 10; 
 
-// EXAMPLE
-void main(){
-  int someNum = 7;
-  print(someNum.isEven);
+// // EXAMPLE
+// void main(){
+//   int someNum = 7;
+//   print(someNum.isEven);
 
-  double someDouble = 10.10;
-  print(someDouble.round());
-}
+//   double someDouble = 10.10;
+//   print(someDouble.round());
+// }
 
 //=========================================================================================================
 //STRINGS
 // Strings are a sequence of characters. They are used to represent text.
 
-// void main(){
-//   int appleCount = 15;
-//   String msg = 'I have $appleCount apples';
+void main(){
+  int appleCount = 15;
+  String msg = 'I have ${appleCount} apples';
 
-//   print(msg);
-// }
+  print(msg);
+}
 
 // String Util Methods
 // void main(){
